@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>West Blue Social | Digital & social media marketing for businesses</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Instrument+Sans:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F2F4F7;--ink:#10131A;--muted:#566070;--line:#D5DAE2;--cobalt:#1F3BFF;--sun:#FFD60A;--onblue:#fff;
+  --display:"Bricolage Grotesque","Arial Black",Arial,sans-serif;--body:"Instrument Sans",system-ui,Arial,sans-serif;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1117;--ink:#EEF1F6;--muted:#9AA4B5;--line:#262C38}}
+:root[data-theme="dark"]{--bg:#0E1117;--ink:#EEF1F6;--muted:#9AA4B5;--line:#262C38}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+header{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0}
+.logo{font:800 1.35rem var(--display);text-decoration:none;letter-spacing:-.02em}
+nav a{margin-left:1.5rem;text-decoration:none;font-weight:600;font-size:.95rem}
+nav a:hover{text-decoration:underline}
+.hero{background:var(--cobalt);color:var(--onblue)}
+.hero header .logo,.hero nav a{color:var(--onblue)}
+.hero .body{padding:clamp(3rem,10vw,7rem) 0 clamp(3.5rem,9vw,6.5rem)}
+h1{font:800 clamp(2.6rem,9vw,6.4rem)/.95 var(--display);letter-spacing:-.035em;margin:0 0 1.75rem;max-width:12ch}
+.hero p{max-width:34rem;font-size:1.2rem;margin:0 0 2.25rem;opacity:.92}
+.btn{display:inline-block;background:var(--sun);color:#10131A;font-weight:600;padding:.95rem 1.6rem;border-radius:999px;text-decoration:none}
+.btn:hover{filter:brightness(.95)}
+section{padding:clamp(3rem,8vw,5.5rem) 0}
+h2{font:800 clamp(1.8rem,5vw,3rem)/1.05 var(--display);letter-spacing:-.025em;margin:0 0 2.5rem;max-width:18ch}
+.row{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:1rem 3rem;padding:1.5rem 0;border-top:1px solid var(--line)}
+.row h3{font:800 1.4rem var(--display);margin:0;letter-spacing:-.015em}
+.row p{margin:0;color:var(--muted);max-width:34rem}
+.work{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:1.25rem}
+.tile{min-height:15rem;border-radius:6px;padding:1.5rem;display:flex;flex-direction:column;justify-content:flex-end;gap:.6rem;color:#fff}
+.tile:nth-child(1){background:#1F3BFF}.tile:nth-child(2){background:#10131A;border:1px solid var(--line)}.tile:nth-child(3){background:#FFD60A;color:#10131A}
+.tile b{font:800 1.25rem var(--display)}.tile span{font-size:1rem;line-height:1.5;opacity:.92}
+.note{color:var(--muted);font-size:.9rem;margin-top:1rem}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:2rem;counter-reset:s;padding:0;list-style:none;margin:0}
+.steps li{counter-increment:s;border-top:4px solid var(--cobalt);padding-top:1rem}
+.steps li::before{content:counter(s);font:800 2rem var(--display);color:var(--cobalt);display:block}
+.steps b{display:block;font:800 1.15rem var(--display);margin-bottom:.35rem}
+.steps span{color:var(--muted);font-size:.98rem}
+.cta{background:var(--ink);color:var(--bg)}
+.cta h2{max-width:14ch;margin-bottom:1.5rem}
+.cta p{max-width:32rem;margin:0 0 2rem;opacity:.85}
+footer{padding:1.75rem 0;font-size:.9rem;color:var(--muted)}
+footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+@media (max-width:640px){.row{grid-template-columns:1fr}nav a{margin-left:1rem}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="wrap">
+    <header><a class="logo" href="#top">West Blue Social</a>
+      <nav><a href="#services">Services</a><a href="#work">Work</a><a href="#contact">Contact</a></nav>
+    </header>
+    <div class="body" id="top">
+      <h1>Marketing that gets your business noticed.</h1>
+      <p>We run social media and digital marketing for Caribbean businesses that want steady leads, not just likes.</p>
+      <a class="btn" href="#contact">Book a free intro call</a>
+    </div>
+  </div>
+</div>
+
+<section id="services"><div class="wrap">
+  <h2>What we do for your business</h2>
+  <div class="row"><h3>Social media management</h3><p>Content planning, posting, and community replies on Instagram, LinkedIn, TikTok, and Facebook.</p></div>
+  <div class="row"><h3>Paid advertising</h3><p>Targeted Meta and Google ads built around one goal: enquiries from the customers you want.</p></div>
+  <div class="row"><h3>Brand and content</h3><p>Photo, video, and copy that makes your business look as good as it is.</p></div>
+  <div class="row"><h3>Websites and search</h3><p>Fast, clear websites and Google Business Profile setup so local customers can find you.</p></div>
+</div></section>
+
+<section id="work" style="padding-top:0"><div class="wrap">
+  <h2>How we escalate your brand</h2>
+  <div class="work">
+    <div class="tile"><b>Social media management</b><span>We manage your presence across all platforms, ensuring consistent engagement and growth for your brand. Accounts only grow when managed daily.</span></div>
+    <div class="tile"><b>Consulting</b><span>Strategic growth planning to optimize your resources and maximize your brand awareness.</span></div>
+    <div class="tile"><b>Content creation</b><span>High-impact visual storytelling designed to captivate and convert your audience.</span></div>
+  </div>
+  </div></section>
+
+<section style="padding-top:0"><div class="wrap">
+  <h2>How we work together</h2>
+  <ol class="steps">
+    <li><b>Intro call</b><span>We learn your business, customers, and goals.</span></li>
+    <li><b>Plan</b><span>You get a clear scope, timeline, and monthly price.</span></li>
+    <li><b>Launch</b><span>We create, publish, and run your campaigns.</span></li>
+    <li><b>Report</b><span>Monthly numbers in plain language, then we adjust.</span></li>
+  </ol>
+</div></section>
+
+<section class="cta" id="contact"><div class="wrap">
+  <h2>Ready to grow your business?</h2>
+  <p>Tell us what you sell and who you want to reach. We'll reply within one business day.</p>
+  <a class="btn" href="mailto:westbluesocial@protonmail.com?subject=Intro%20call">westbluesocial@protonmail.com</a>
+</div></section>
+
+<footer><div class="wrap"><span>&copy; 2026 West Blue Social. Trinidad and Tobago.</span><span>Instagram, LinkedIn, TikTok</span></div></footer>
+</body>
+</html>
